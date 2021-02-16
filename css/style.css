@@ -234,7 +234,7 @@ label{
   color: grey;
   font-size: 17px;
   border-bottom: 1px solid grey;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 input{
@@ -249,3 +249,4 @@ input{
   bottom: 0;
   right: 20%;
 }
+/* FINE HELP BUTTON */
