@@ -131,13 +131,13 @@ nav{
 
 .page-title{
   position: absolute;
-  bottom: 30%;
+  bottom: 28%;
   left: 0;
-  width: 60%;
+  width: 52%;
 }
 
 h1{
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom: 40px;
 }
 /* FINE HEADER */
