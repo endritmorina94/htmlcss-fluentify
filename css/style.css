@@ -21,7 +21,6 @@ body{
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  padding-top: 20px;
   position: relative;
 }
 
@@ -29,7 +28,7 @@ body{
   float: left;
 }
 
-a{
+a:not(.link){
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -49,6 +48,14 @@ a:hover{
   content: "";
   display: table;
   clear: both;
+}
+
+.standard-text{
+  color: grey;
+}
+
+h2{
+  font-size: 30px;
 }
 /* FINE COMMON */
 
@@ -112,7 +119,7 @@ header{
 .traditional-schools-dissing{
   background-color: #D3D3D3;
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .traditional-schools-dissing h3{
@@ -120,7 +127,11 @@ header{
 }
 /* FINE INTERMEZZO */
 
-/* PRESENTAZIONE CORSO */
+/* MAIN */
+/* Presentazione corso */
+.main-container.clearfix{
+  margin-top: 35px;
+}
 .card{
   width: 32%;
   text-align: center;
@@ -130,14 +141,13 @@ header{
   margin: 0 2%;
 }
 
-
 .container-img img{
   height: 200px;
 }
 
 .card-title{
   color: #7BBB01;
-  font-size: 21px;
+  font-size: 20px;
   margin: 25px 0;
 }
 
@@ -147,7 +157,40 @@ header{
   margin-bottom: 25px;
 }
 
+.line-2{
+  margin: 35px auto;
+  width: 95%;
+}
+/* Fine presentazione corso */
 
+/* Personalizza il corso */
+.personalize-course{
+  padding-top: 10px;
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
 
+.personalize-course>*{
+  width: 45%;
+}
 
-/* FINE PRESENTAZIONE CORSO */
+.picture{
+  margin-right: 10%;
+}
+
+.personalize-course h2{
+  margin-bottom: 15px;
+}
+
+.link{
+  display: block;
+  margin-top: 25px;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+.plan, .show-plan{
+  width: 50%;
+}
+/* FINE FOOTER */
