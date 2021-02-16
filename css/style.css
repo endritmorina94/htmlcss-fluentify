@@ -11,8 +11,72 @@ img{
   display: block;
 }
 
+/* COMMON */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.col{
+  float: left;
+}
+
+.btn{
+  background-color: #7BBB01;
+  padding: 10px;
+  border-radius: 5px;
+}
 /* HEADER */
 header{
   background-color: #0A325A;
   height: 550px;
+  color: white;
+}
+
+.logo{
+  width: 11%;
+  display: inline-block;
+}
+
+.center{
+  width: 50%;
+  padding-left: 25px;
+}
+
+.right{
+  width: 39%;
+  text-align: right;
+}
+
+.menu{
+  list-style-type: none;
+}
+
+.menu li{
+  display: inline-block;
+  line-height: 51px;
+}
+
+.menu li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: white;
+  margin-left: 20px;
+}
+
+.menu li a:hover{
+  color: green;
+}
+
+.empty-btn{
+  border: 1px solid white;
+  padding: 10px 32px;
+  border-radius: 5px;
 }
