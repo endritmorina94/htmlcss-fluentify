@@ -55,6 +55,10 @@ a:hover, input:hover{
   border-radius: 5px;
 }
 
+.tall{
+  padding: 20px 10px;
+}
+
 .clearfix::after{
   content: "";
   display: table;
@@ -130,7 +134,7 @@ header{
 
 h1{
   font-size: 48px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 /* FINE HEADER */
 
