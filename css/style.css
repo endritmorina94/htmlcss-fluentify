@@ -93,6 +93,10 @@ header{
   background-position: 110% 110%;
 }
 
+nav{
+  padding-top: 20px;
+}
+
 .logo{
   width: 11%;
   display: inline-block;
