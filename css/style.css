@@ -1,0 +1,18 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+/* HEADER */
+header{
+  background-color: #0A325A;
+  height: 550px;
+}
