@@ -197,7 +197,7 @@ footer{
 }
 .plan, .show-plan{
   width: 50%;
-  padding: 40px 0;
+  padding: 45px 0;
 }
 
 .show-plan{
@@ -225,3 +225,9 @@ input{
   border: none;
 }
 /* FINE FOOTER */
+
+/* HELP BUTTON */
+.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 20.5%;
