@@ -34,8 +34,9 @@ a:not(.link){
   color: white;
 }
 
-a:hover{
+a:hover, input:hover{
   color: green;
+  cursor: pointer;
 }
 
 .btn{
@@ -190,7 +191,37 @@ header{
 /* FINE MAIN */
 
 /* FOOTER */
+footer{
+  margin-top: 35px;
+  background-color: #D3D3D3;
+}
 .plan, .show-plan{
   width: 50%;
+  padding: 40px 0;
+}
+
+.show-plan{
+  text-align: right;
+}
+
+label{
+  margin-right: 20px;
+}
+
+#kind{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  color: grey;
+  font-size: 17px;
+  border-bottom: 1px solid grey;
+  margin-right: 10px;
+}
+
+input{
+  color: white;
+  border: none;
 }
 /* FINE FOOTER */

@@ -167,14 +167,22 @@
 
   <!-- FOOTER -->
   <footer>
-    <div class="main-container">
+    <div class="main-container clearfix">
 
       <div class="plan col">
         <h2>Struttura un piano</h2>
       </div>
 
       <div class="show-plan col">
-        <p class="standard-text"></p>
+        <form>
+          <label class="standard-text" for="kind">Sono</label>
+            <select id="kind" name="kind">
+            <option value disabled selected="">Seleziona</option>
+            <option value="azienda">Azienda</option>
+            <option value="privato">Privato</option>
+          </select>
+          <input class="btn" type="submit" value="VISUALIZZA IL TUO PIANO">
+        </form>
       </div>
     </div>
   </footer>
