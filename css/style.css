@@ -27,7 +27,7 @@ body{
 }
 /* Fine scrollbar hiding */
 
-.main-container{
+.container{
   width: 1024px;
   height: 100%;
   margin: 0 auto;
@@ -168,8 +168,10 @@ section.clearfix{
   margin: 0 2%;
 }
 
-.container-img img{
-  height: 200px;
+.card img{
+  width: auto;
+  height: 180px;
+  margin: 0 auto;
 }
 
 .card-title h3{
