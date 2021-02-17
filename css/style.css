@@ -155,7 +155,7 @@ h1{
 
 /* MAIN */
 /* Presentazione corso */
-.main-container.clearfix{
+section.clearfix{
   margin-top: 35px;
 }
 
@@ -191,7 +191,7 @@ h1{
 
 /* Personalizza il corso */
 .personalize-course{
-  padding-top: 10px;
+  padding-bottom: 35px;
   text-align: left;
   width: 90%;
   margin: 0 auto;
